@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: darkgoldenrod;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+.navbar li {
+  float: left;
+}
+body {
+  background-color: cornsilk;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+strong {
+  font-style: italic;
+}
+#input {
+  color: blue;
+  background-color: cyan;
+}
+#enter {
+  color: darkcyan;
+}
+.hero_title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
