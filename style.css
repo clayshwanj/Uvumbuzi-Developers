@@ -7,6 +7,9 @@ h1 {
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 .navbar a {
   color: darkgoldenrod;
@@ -40,4 +43,7 @@ strong {
 }
 .hero_title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.claire {
+  border-radius: 50px;
 }
