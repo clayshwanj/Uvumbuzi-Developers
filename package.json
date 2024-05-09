@@ -1,0 +1,15 @@
+{
+  "name": "uvumbuzi-developers",
+  "version": "1.0.0",
+  "description": "You are co-founders in a web development agency. Create a landing page for your company that shows what the company is about, who you are and how you work. Provide a way for prospective clients to contact you through a form. The hero section of the landing page should have a call to action button.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

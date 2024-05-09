@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-class {
+  @apply bg-red-500 md:bg-black rounded-sm;
+}
