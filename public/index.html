@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uvumbuzi Developers</title>
@@ -12,19 +11,25 @@
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="custom.css" />
   </head>
-  <body class="bg-yellow-100">
-    <nav class="bg-slate-500">
-      <ul>
-        <h1 class="font-bold">Uvumbuzi Developers</h1>
-        <li><a href="Home">Home</a></li>
-        <li><a href="About">About</a></li>
-        <li><a href="Services">Services</a></li>
-        <li><a href="Contact">Contact</a></li>
-      </ul>
-    </nav>
+  <body class="bg-red-50 font-serif">
+    <div class="bg-pink-300 hover:bg-pink-400">
+      <nav>
+        <ul class="grid grid-cols-5">
+          <h1 class="font-extrabold pr-10 text-lg">Uvumbuzi Developers</h1>
+          <li class="pl-72 font-semibold text-sm"><a href="Home">Home</a></li>
+          <li class="pl-60 font-semibold text-sm"><a href="About">About</a></li>
+          <li class="pl-60 font-semibold text-sm">
+            <a href="Services">Services</a>
+          </li>
+          <li class="pl-60 font-semibold text-sm">
+            <a href="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <section>
-      <h2 class="font-bold">Home</h2>
+      <h2 class="font-extrabold">Home</h2>
       <section class="hero">
         <div class="hero_content">
           <h3 class="hero_title">Get the best websites and softwares</h3>
@@ -38,21 +43,19 @@
       </section>
 
       <section>
-        <h2 class="uppercase">About</h2>
-        <p class="font-bold">
+        <h2 class="font-extrabold">About</h2>
+        <p>
           Uvumbuzi Developers was founded 2020 by Claire Wanjiru and Joyce
           Wangari,they are two enterprenures who came up with the idea after
           realizing that there was necessity to engage in something while in
-          quarantine.
-        </p>
-        <p>
-          This web development agency has been able to partner with the biggest
-          companies in the IT industry for instance,Google & Microsoft
+          quarantine. This web development agency has been able to partner with
+          the biggest companies in the IT industry for instance,Google &
+          Microsoft.
         </p>
       </section>
 
       <section>
-        <h2>Services</h2>
+        <h2 class="font-extrabold">Services</h2>
         <!-- Added square bullets -->
         <ul type="square">
           <li>Custom Website Development</li>
@@ -67,7 +70,7 @@
       </section>
 
       <section>
-        <h2>Contact</h2>
+        <h2 class="font-extrabold">Contact</h2>
 
         <strong>Phone Number</strong>
         <p>+254 123 456 789</p>
@@ -113,60 +116,126 @@
       </section>
     </section>
     <br />
-    <h2>Our Team</h2>
-    <img
-      src="assets/img/claire.jpg"
-      alt="Claire"
-      width="100px"
-      class="claire"
-    />
-    <div class="socials">
-      <a href="https://www.pinterest.com/"></a>
-      <i class="fa-brands fa-pinterest"></i>
+    <h2 class="font-extrabold">Our Team</h2>
 
-      <a href="https://www.instagram.com"></a>
-      <i class="fa-brands fa-square-instagram"></i>
-
-      <a href="https://www.facebook.com/">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-
-      <a href="https://twitter.com">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-    </div>
-
-    <h3>Claire Wanjiru</h3>
-    <p>
-      I am software engineer who has prowessed her skills and expanded expertise
-      in the field through overtime experience.
-    </p>
-
-    <img src="assets/img/joyce.PNG" alt="Joyce" width="80px" />
-    <div class="socials">
-      <a href="https://www.pinterest.com/">
+    <div class="card bg-white">
+      <img
+        src="assets/img/claire.jpg"
+        alt="Claire"
+        width="100px"
+        class="w-full"
+      />
+      <h2 class="font-bold">Claire Wanjiru</h2>
+      <p class="title">CEO & Co-Founder</p>
+      <p>
+        I am software engineer who has prowessed her skills and expanded
+        expertise in the field through overtime experience.
+      </p>
+      <div class="socials">
+        <a href="https://www.pinterest.com/"></a>
         <i class="fa-brands fa-pinterest"></i>
-      </a>
 
-      <a href="https://www.instagram.com">
+        <a href="https://www.instagram.com"></a>
         <i class="fa-brands fa-square-instagram"></i>
-      </a>
 
-      <a href="https://www.facebook.com/">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-      <a href="https://twitter.com">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-      <h3>Joyce Wangari</h3>
+        <a href="https://www.facebook.com/">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://twitter.com">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <p><button>Contact</button></p>
+    </div>
+    <br />
+
+    <div class="card bg-white">
+      <img src="assets/img/joyce.PNG" alt="Joyce" class="w-full" />
+
+      <h2 class="font-bold">Joyce Wangari</h2>
+      <p class="title">CEO & Co-Founder</p>
       <p>
         I'm a qualified software engineer aiming to make a favourable impact and
         here to deliver.
       </p>
-    </div>
+      <div class="socials">
+        <a href="https://www.pinterest.com/">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
 
-    <footer>
-      <p>&copy;copyright 2024</p>
+        <a href="https://www.instagram.com">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <p><button>Contact</button></p>
+    </div>
+    <br />
+
+    <footer class="bg-red-200 py-12">
+      <div class="container mx-auto px-2 text-black mb-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div>
+            <h2 class="text-3xl font-bold mb-4">Explore</h2>
+            <ul class="grid grid-cols-4">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-square-x-twitter"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 class="text-3xl font-bold mb-4">Learn More</h2>
+            <ul class="ml-6">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Details</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Articles</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 class="text-3xl font-bold mb-4">Help</h2>
+            <ul class="ml-6">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Troubleshooting</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Status</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-black flex justify-center">
+        <p>&copy;copyright 2024</p>
+      </div>
     </footer>
   </body>
 </html>
